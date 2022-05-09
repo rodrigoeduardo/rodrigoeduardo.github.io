@@ -1,5 +1,5 @@
-import { Box, Flex, Image, Link, SimpleGrid, Text } from "@chakra-ui/react";
-import { RepoCard } from "./RepoCard";
+import { Flex, SimpleGrid, Text } from '@chakra-ui/react';
+import { RepoCard } from './RepoCard';
 
 export function PortfolioSection() {
   return (
@@ -19,8 +19,27 @@ export function PortfolioSection() {
           Repositories that I would like you to check it out
         </Text>
 
-        <SimpleGrid columns={3} spacing={10} w="100%" mt="4rem">
-          <RepoCard />
+        <SimpleGrid columns={{ base: 1, md: 2 }} spacing={20} w="60%" mt="4rem">
+          <RepoCard
+            repoName="Espiãozinho"
+            repoSlug="espiaozinho"
+            imageUrl="assets/espiaozinho.png"
+          />
+          <RepoCard
+            repoName="Share Your Best!"
+            repoSlug="share-your-best"
+            imageUrl="assets/shareyourbest.png"
+          />
+          <RepoCard
+            repoName="Who is? CS:GO Major players"
+            repoSlug="major-wordle"
+            imageUrl="assets/whoismajor.png"
+          />
+          <RepoCard
+            repoName="Liquipedia Scraper"
+            repoSlug="liquipedia-scraper"
+            imageUrl="assets/liquipedia-scraper.png"
+          />
         </SimpleGrid>
       </Flex>
     </Flex>
