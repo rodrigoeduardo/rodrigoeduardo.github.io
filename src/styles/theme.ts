@@ -12,6 +12,9 @@ export const theme = extendTheme({
   },
   styles: {
     global: {
+      html: {
+        scrollBehavior: 'smooth',
+      },
       body: {
         bgColor: 'blue.900',
         color: 'white',
