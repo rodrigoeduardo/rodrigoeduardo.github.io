@@ -13,6 +13,7 @@ import { FiChrome, FiDatabase, FiEdit } from "react-icons/fi";
 export function AboutMeSection() {
   return (
     <Flex
+      id="about-me"
       flexDir="column"
       bgGradient="linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(26,54,93,1) 70%, rgba(26,54,93,1) 100%)"
       w="100%"
