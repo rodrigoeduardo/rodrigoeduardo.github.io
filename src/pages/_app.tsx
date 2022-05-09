@@ -1,7 +1,7 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import type { AppProps } from "next/app";
 
-import "../styles/animation.css";
+import "../styles/animations.css";
 
 import "@fontsource/roboto-mono/";
 import "@fontsource/roboto-mono/700.css";
