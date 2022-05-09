@@ -1,18 +1,26 @@
 @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes blink {
-    from { border-color: transparent }
-    to { border-color: orange; }
+  from {
+    border-color: transparent;
+  }
+  to {
+    border-color: orange;
+  }
 }
 
 @keyframes slide-bottom {
-    0% {
-        transform: translateY(0);
-    }
-    100% {
-        transform: translateY(12px);
-    }
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(12px);
+  }
 }

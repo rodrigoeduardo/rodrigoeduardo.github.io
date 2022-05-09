@@ -1,18 +1,18 @@
 import {
-  Box,
   Flex,
-  Grid,
   GridItem,
   Icon,
   ListItem,
+  SimpleGrid,
   Text,
   UnorderedList,
-} from "@chakra-ui/react";
-import { FiChrome, FiDatabase, FiEdit } from "react-icons/fi";
+} from '@chakra-ui/react';
+import { FiChrome, FiDatabase, FiEdit } from 'react-icons/fi';
 
 export function AboutMeSection() {
   return (
     <Flex
+      id="about-me"
       flexDir="column"
       bgGradient="linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(26,54,93,1) 70%, rgba(26,54,93,1) 100%)"
       w="100%"
@@ -33,8 +33,9 @@ export function AboutMeSection() {
         </Text>
       </Flex>
 
-      <Grid
-        templateColumns="repeat(3, 1fr)"
+      <SimpleGrid
+        columns={{ base: 1, md: 3 }}
+        spacingY="1.5rem"
         bgColor="white"
         margin="0 auto"
         maxW="70%"
@@ -134,7 +135,7 @@ export function AboutMeSection() {
             </UnorderedList>
           </Flex>
         </GridItem>
-      </Grid>
+      </SimpleGrid>
     </Flex>
   );
 }

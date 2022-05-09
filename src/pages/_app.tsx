@@ -6,7 +6,7 @@ import "../styles/animations.css";
 import "@fontsource/roboto-mono/";
 import "@fontsource/roboto-mono/700.css";
 
-import { theme } from "../theme";
+import { theme } from "../styles/theme";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
