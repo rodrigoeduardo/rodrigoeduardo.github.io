@@ -25,11 +25,11 @@ export function AboutMeSection() {
           Hi, my name is Rodrigo Eduardo.
         </Text>
         <Text textAlign="center" maxW="60%" mt="1.5rem">
-          I'm an enthusiast of technology and programming. I have been studying
-          Web Development for 3 years and found my passion. Currently, I'm an
-          Information Technology student at the University of Rio Grande do
-          Norte, Brazil. Before, I have studied IT at IFRN and participated in
-          research projects.
+          I&apos;m an enthusiast of technology and programming. I have been
+          studying Web Development for 3 years and found my passion. Currently,
+          I&apos;m an Information Technology student at the University of Rio
+          Grande do Norte, Brazil. Before, I have studied IT at IFRN and
+          participated in research projects.
         </Text>
       </Flex>
 
@@ -50,7 +50,7 @@ export function AboutMeSection() {
             </Text>
 
             <Text color="black" textAlign="center" maxW="60%" mt="1rem">
-              That's my favorite part of Web Development
+              That&apos;s my favorite part of Web Development
             </Text>
 
             <Text color="blue.900" fontWeight="700" mt="2rem">
@@ -84,7 +84,7 @@ export function AboutMeSection() {
             </Text>
 
             <Text color="black" textAlign="center" maxW="60%" mt="1rem">
-              That's my second favorite part of Web Development
+              That&apos;s my second favorite part of Web Development
             </Text>
 
             <Text color="blue.900" fontWeight="700" mt="2rem">
