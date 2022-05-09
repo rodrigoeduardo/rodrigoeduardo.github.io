@@ -13,7 +13,7 @@ export const theme = extendTheme({
   styles: {
     global: {
       body: {
-        bgColor: 'gray.800',
+        bgColor: 'blue.900',
         color: 'white',
         fontFamily: 'Roboto Mono, sans-serif',
       },
