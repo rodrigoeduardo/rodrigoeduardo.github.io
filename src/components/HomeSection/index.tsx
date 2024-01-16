@@ -1,14 +1,15 @@
-import { TriangleDownIcon } from '@chakra-ui/icons';
-import { Avatar, Box, Flex, Text, useBreakpointValue } from '@chakra-ui/react';
-import { Navbar } from '../Navbar';
+import { TriangleDownIcon } from "@chakra-ui/icons";
+import { Avatar, Box, Flex, Text, useBreakpointValue } from "@chakra-ui/react";
+import { Navbar } from "../Navbar";
 
 export function HomeSection() {
   const isBroken = useBreakpointValue({ base: true, sm: false });
 
   return (
     <Box
-      bgImage="assets/landing.gif"
-      bgPosition="center"
+      bgGradient={
+        "linear-gradient(-180deg, rgba(2,0,36,1) 0%, rgba(26,54,93,1) 80%, rgba(26,54,93,1) 100%)"
+      }
       w="100%"
       h="100vh"
       py="1.5rem"
@@ -16,7 +17,7 @@ export function HomeSection() {
       <Flex
         flexDir="column"
         margin="0 auto"
-        maxW={{ base: '90%', md: '80%' }}
+        maxW={{ base: "90%", md: "80%" }}
         h="100%"
       >
         <Navbar />
@@ -29,7 +30,7 @@ export function HomeSection() {
           w="100%"
         >
           <Text
-            fontSize={{ base: '2rem', md: '3rem' }}
+            fontSize={{ base: "2rem", md: "3rem" }}
             fontWeight="700"
             bgColor="black"
           >
@@ -39,14 +40,14 @@ export function HomeSection() {
             <Box
               overflow="hidden"
               borderRight=".15em solid orange"
-              fontSize={{ base: '2rem', md: '3rem' }}
+              fontSize={{ base: "2rem", md: "3rem" }}
               fontWeight="700"
               whiteSpace="nowrap"
               w="0"
               bgColor="black"
               animation="typing 2.5s steps(20, end) forwards, blink .8s infinite"
             >
-              Web Developer & Designer
+              Full-Stack Developer
             </Box>
           </Box>
           <Box display="inline-block">
@@ -59,8 +60,8 @@ export function HomeSection() {
               animation="typing 1.5s steps(20, end) forwards"
               textAlign="center"
             >
-              I love to design and code {isBroken ? <br /> : ''}stuff to make
-              world a better place.
+              I love to code {isBroken ? <br /> : ""}stuff to make world a
+              better place.
             </Box>
           </Box>
           <Avatar

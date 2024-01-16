@@ -6,8 +6,8 @@ import {
   SimpleGrid,
   Text,
   UnorderedList,
-} from '@chakra-ui/react';
-import { FiChrome, FiDatabase, FiEdit } from 'react-icons/fi';
+} from "@chakra-ui/react";
+import { FiChrome, FiDatabase, FiEdit } from "react-icons/fi";
 
 export function AboutMeSection() {
   return (
@@ -27,14 +27,15 @@ export function AboutMeSection() {
         <Text textAlign="center" maxW="60%" mt="1.5rem">
           I&apos;m an enthusiast of technology and programming. I have been
           studying Web Development for 3 years and found my passion. Currently,
-          I&apos;m an Information Technology student at the University of Rio
-          Grande do Norte, Brazil. Before, I have studied IT at IFRN and
-          participated in research projects.
+          I&apos;m an Information Technology student at the Federal University
+          of Rio Grande do Norte, Brazil. Before, I have studied IT at IFRN and
+          participated in research projects. Also, I worked in developing web
+          systems at NUPLAM/IMD.
         </Text>
       </Flex>
 
       <SimpleGrid
-        columns={{ base: 1, md: 3 }}
+        columns={{ base: 1, md: 2 }}
         spacingY="1.5rem"
         bgColor="white"
         margin="0 auto"
@@ -47,7 +48,7 @@ export function AboutMeSection() {
           <Flex flexDir="column" align="center">
             <Icon as={FiChrome} w="12" h="12" color="blue.900" />
             <Text color="black" fontSize="1.5rem" fontWeight="700" mt="1rem">
-              Front-end Dev
+              Front-end
             </Text>
 
             <Text color="black" textAlign="center" maxW="60%" mt="1rem">
@@ -70,9 +71,9 @@ export function AboutMeSection() {
               <ListItem>React.js</ListItem>
               <ListItem>Next.js</ListItem>
               <ListItem>HTML, CSS, Sass</ListItem>
-              <ListItem>Chakra UI</ListItem>
               <ListItem>React Native</ListItem>
               <ListItem>Angular</ListItem>
+              <ListItem>Vue.js</ListItem>
             </UnorderedList>
           </Flex>
         </GridItem>
@@ -81,7 +82,7 @@ export function AboutMeSection() {
           <Flex flexDir="column" align="center">
             <Icon as={FiDatabase} w="12" h="12" color="blue.900" />
             <Text color="black" fontSize="1.5rem" fontWeight="700" mt="1rem">
-              Back-end Dev
+              Back-end
             </Text>
 
             <Text color="black" textAlign="center" maxW="60%" mt="1rem">
@@ -99,39 +100,13 @@ export function AboutMeSection() {
               margin="0"
               mt="1.5rem"
             >
+              <ListItem>Java</ListItem>
+              <ListItem>Spring MVC</ListItem>
+              <ListItem>Spring WebFlux</ListItem>
               <ListItem>Javascript</ListItem>
               <ListItem>Typescript</ListItem>
               <ListItem>Node.js</ListItem>
-              <ListItem>Java</ListItem>
-              <ListItem>Spring</ListItem>
-            </UnorderedList>
-          </Flex>
-        </GridItem>
-
-        <GridItem>
-          <Flex flexDir="column" align="center">
-            <Icon as={FiEdit} w="12" h="12" color="blue.900" />
-            <Text color="black" fontSize="1.5rem" fontWeight="700" mt="1rem">
-              Designer
-            </Text>
-
-            <Text color="black" textAlign="center" maxW="60%" mt="1rem">
-              Not an expert, but an enthuasist
-            </Text>
-
-            <Text color="blue.900" fontWeight="700" mt="2rem">
-              Technologies I like:
-            </Text>
-
-            <UnorderedList
-              color="black"
-              listStyleType="none"
-              textAlign="center"
-              margin="0"
-              mt="1.5rem"
-            >
-              <ListItem>Figma</ListItem>
-              <ListItem>Photoshop</ListItem>
+              <ListItem>Express</ListItem>
             </UnorderedList>
           </Flex>
         </GridItem>
