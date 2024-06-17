@@ -26,7 +26,7 @@ export function AboutMeSection() {
         </Text>
         <Text textAlign="center" maxW="60%" mt="1.5rem">
           I&apos;m an enthusiast of technology and programming. I have been
-          studying Web Development for 3 years and found my passion. Currently,
+          studying Web Development for 5 years and found my passion. Currently,
           I&apos;m an Information Technology student at the Federal University
           of Rio Grande do Norte, Brazil. Before, I have studied IT at IFRN and
           participated in research projects. Also, I worked in developing web
